@@ -19,7 +19,7 @@ h1 {
 
 .hero h2 {
   font-size: 24px;
-  color: #008760;
+  color: var(--secondary-color);
   margin-bottom: 20px;
 }
 
@@ -40,10 +40,14 @@ h1 {
 }
 
 .btn-branding {
-  background: #008760;
+  background: var(--secondary-color);
   border-radius: 16px;
   padding: 10px 20px;
   color: #f9f7fe;
   font-size: 14px;
   box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.card {
+  border-style: none;
 }
