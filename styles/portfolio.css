@@ -45,9 +45,10 @@ h1 {
   padding: 10px 20px;
   color: #f9f7fe;
   font-size: 14px;
-  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.1);
 }
 
 .card {
   border-style: none;
+  text-align: center;
 }
