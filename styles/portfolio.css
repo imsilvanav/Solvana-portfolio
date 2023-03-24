@@ -58,3 +58,11 @@ h3 {
   border-style: none;
   text-align: center;
 }
+
+.container-bottom {
+  margin-top: 30px;
+}
+
+.container-bottom h3 {
+  line-height: 0.7cm;
+}
