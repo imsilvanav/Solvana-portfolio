@@ -6,6 +6,9 @@
 
 body {
   font-family: "Montserrat", sans-serif;
+}
+
+.body-homepage {
   background-image: url("../images/homepage_bg.png");
   background-size: cover;
 }
@@ -26,6 +29,13 @@ h3 {
   text-align: center;
   font-weight: 500;
   color: var(--secondary-color);
+}
+
+h4 {
+  font-size: 20px;
+  font-weight: 300;
+  color: var(--secondary-color);
+  line-height: 1.4;
 }
 
 .hero {
@@ -124,4 +134,30 @@ h3 {
 
 .link-project {
   margin-bottom: 0;
+}
+
+.small-logo {
+  width: 120px;
+  height: 50px;
+  margin: 0 auto;
+}
+
+.about-section {
+  padding: 160px 80px;
+}
+
+.about-section h3 {
+  text-align: left;
+  margin: 0;
+}
+
+.body-about {
+  background-image: url("../images/about_bg.png");
+  background-size: cover;
+}
+
+@media (max-width: 900px) {
+  .about-section {
+    padding: 90px 20px;
+  }
 }
