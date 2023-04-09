@@ -14,8 +14,16 @@ body {
 }
 
 @media (max-width: 576px) {
-  body {
+  .body-homepage {
     background-image: none;
+  }
+
+  .body-homepage h3 {
+    font-size: 20px;
+  }
+
+  .body-homepage p {
+    font-size: 12px;
   }
 }
 
@@ -45,7 +53,7 @@ h4 {
   background-image: url("../images/flower_hero.png");
   background-repeat: no-repeat;
   background-position: center;
-  height: 700px;
+  height: 650px;
 }
 
 @media (max-width: 576px) {
@@ -70,8 +78,8 @@ h4 {
 }
 
 .holder img {
-  max-height: 380px;
-  max-width: 380px;
+  max-height: 350px;
+  max-width: 350px;
 }
 
 @media (max-width: 576px) {
@@ -181,10 +189,49 @@ h4 {
   }
 }
 
-.container {
+.project-description {
   text-align: center;
 }
 
-.back-to-work a {
-  color: #008760;
+.back-work {
+  display: block;
+  text-align: center;
+  color: black;
+}
+
+.project-img img {
+  max-width: 500px;
+  max-height: 500px;
+}
+
+.logo-nav {
+  max-height: 30px;
+}
+
+nav {
+  padding-top: 20px;
+}
+
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 42px;
+  margin-left: 25px;
+  font-weight: 400;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+  transition: all 100ms ease-in-out;
+}
+
+nav a:hover,
+nav li.active a {
+  color: var(--secondary-color);
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
 }
