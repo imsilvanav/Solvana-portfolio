@@ -184,3 +184,7 @@ h4 {
 .container {
   text-align: center;
 }
+
+.back-to-work a {
+  color: #008760;
+}
