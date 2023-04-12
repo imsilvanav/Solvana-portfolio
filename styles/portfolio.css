@@ -189,6 +189,17 @@ h4 {
   }
 }
 
+.body-project {
+  background-image: url("../images/project_bg.png");
+  background-size: cover;
+}
+
+@media (max-width: 576px) {
+  .body-project {
+    background-image: none;
+  }
+}
+
 .project-description {
   text-align: center;
 }
@@ -202,6 +213,7 @@ h4 {
 .project-img img {
   max-width: 500px;
   max-height: 500px;
+  border-radius: 20px;
 }
 
 .logo-nav {
@@ -260,4 +272,10 @@ footer .social-links a {
 footer .social-links a:hover {
   color: var(--primary-color);
   background: var(--white-color);
+}
+
+iframe {
+  display: block;
+  margin: 0 auto;
+  border-radius: 20px;
 }
