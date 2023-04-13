@@ -25,6 +25,10 @@ body {
   .body-homepage p {
     font-size: 12px;
   }
+
+  .container-bottom h3 {
+    font-size: 20px;
+  }
 }
 
 h1 {
