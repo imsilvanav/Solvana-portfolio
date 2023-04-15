@@ -227,6 +227,13 @@ h4 {
   max-height: 30px;
 }
 
+@media (max-width: 768px) {
+  .logo-nav {
+    width: 60px;
+    height: 60px;
+  }
+}
+
 nav {
   padding-top: 20px;
 }
