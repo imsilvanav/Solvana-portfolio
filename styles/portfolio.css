@@ -25,10 +25,6 @@ body {
   .body-homepage p {
     font-size: 12px;
   }
-
-  .container-bottom h3 {
-    font-size: 20px;
-  }
 }
 
 h1 {
@@ -63,7 +59,6 @@ h4 {
 @media (max-width: 576px) {
   .hero {
     background-image: url("../images/flower_hero_mobile.png");
-    width: 500px;
     padding: 200px 0;
   }
 }
@@ -121,6 +116,12 @@ h4 {
   font-size: 24px;
   color: var(--secondary-color);
   margin-bottom: 20px;
+}
+
+@media (max-width: 576px) {
+  .container-bottom h3 {
+    font-size: 20px;
+  }
 }
 
 .header h2 {
